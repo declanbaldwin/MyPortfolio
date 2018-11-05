@@ -106,14 +106,14 @@ main {
     .job {
         background: lighten($primary-color, 5);
         padding: 0.5rem;
-        border-bottom: $secondary-color 5px solid;
+        border-top: $secondary-color 5px solid;
     }
 }
 
 //Work/Projects
 .projects {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 0.7rem;
 
     img {
@@ -141,10 +141,7 @@ main {
         border: 3px #fff solid;
         padding: 1.5rem 2.5rem;
         margin-bottom: 3rem;
-        @include easeOut;
-
         &:hover {
-            padding: 0.5rem 1.5rem;
             background: $secondary-color;
             color: set-text-color($secondary-color);
             span {
