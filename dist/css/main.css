@@ -118,7 +118,7 @@ h1, h2, h3 {
   margin: 0;
   font-weight: 400; }
   h1.large-header, h2.large-header, h3.large-header {
-    font-size: 6rem; }
+    font-size: 5rem; }
   h1.small-header, h2.small-header, h3.small-header {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
